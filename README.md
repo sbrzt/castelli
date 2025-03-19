@@ -1,8 +1,8 @@
-# Castelli Data Analysis
+# Castelli Data Management
 
 ## Description
 
-Data analysis for Emilia-Romagna Castles project.
+Data management for Emilia-Romagna Castles project.
 
 The repository is organized as follows:
 * the `analysis` folder contains a set of Jupyter Notebooks used to examine and visualize the data, as well as to draw conclusions and/or questions about the data and what to do with it.
