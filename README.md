@@ -9,7 +9,8 @@ The repository is organized as follows:
 
 ## Roadmap
 
-- [ ] Data cleaning
+- [ ] Data integration (`latitude`, `longitude`, full names, external identifiers, etc.)
+- [ ] Data cleaning (normalization of `NULL` values, etc.)
 - [ ] Data documentation
 - [ ] Definition of methodology protocol
 
