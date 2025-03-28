@@ -5,14 +5,15 @@
 Data management for Emilia-Romagna Castles project.
 
 The repository is organized as follows:
-* the `analysis` folder contains a set of Jupyter Notebooks used to examine and visualize the data, as well as to draw conclusions and/or questions about the data and what to do with it.
+* the `analysis` folder contains a set of Jupyter notebooks used to examine and visualize the data, as well as to draw conclusions and/or questions about the data and what to do with it.
+* the `processing` folder cointains a set of Jupyter notebooks used to conduct certain processing operations on the existing data, such as integration with new data from outer sources (like APIs).
 
 ## Roadmap
 
-- [ ] Data integration (`latitude`, `longitude`, full names, external identifiers, etc.)
+- [ ] Data integration (`latitude`, `longitude`, full people names, external identifiers, etc.)
 - [ ] Data cleaning (normalization of `NULL` values, etc.)
 - [ ] Data documentation
-- [ ] Definition of methodology protocol
+- [ ] Definition of dataset protocol
 
 ## Author
 
