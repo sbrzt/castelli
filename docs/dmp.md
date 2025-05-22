@@ -4,7 +4,7 @@
 
 ### How will new data be collected or produced and/or how will existing data be re-used?
 
-Existing data will be sourced from a legacy Microsoft Access database that has since been migrated to a MySQL instance, accessible at: https://www.lab451.cloud/Reggio/index.php.
+Existing data will be sourced from a legacy Microsoft Access database that has since been migrated to a MySQL instance, accessible at: https://www.lab451.cloud/Castelli/index.php.
 
 The data will be collected, analyzed, and processed using Python scripts, which are documented in the following sections: [Analysis](/analysis/), [Processing](/processing/).
 
