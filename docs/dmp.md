@@ -25,14 +25,11 @@ To ensure long-term accessibility and ease of use—particularly when working wi
 The database is structured in three main tables:
 - **Castelli** (2000 rows)
     - _IdCastello_: int
-    - _IdVeteroDb_: str
-    - _IdRifVeteroDb_: str
     - _Castello_: str
     - _NumeroSullaCarta_: int
     - _EsistenzaDubbia_: int bool
     - _Toponimo_: str
-    - _IdProvincia_: int
-    - _provincia_: str
+    - _Provincia_: str
     - _Comune_: str
     - _Localita_: str
     - _Localizzazione_: int cat
@@ -40,26 +37,19 @@ The database is structured in three main tables:
     - _RifIGM_: str
     - _CondizioneAttuali_: int cat
     - _UsoAttuale_: str
-    - _RifFotoAerea_: NULL
-    - _Planimetria_: str
-    - _InterventiRicognitivi_: str
+    - _RifFotoAerea_: rif
+    - _Planimetria_: rif
+    - _InterventiRicognitivi_: rif
     - _DescrizioneSito_: str
-    - _EdificioIsolato_: int bool
-    - _ComplessoEdilizio_: int bool
-    - _InsediamentoFortificato_: int bool
     - _AttPrecastrensi_: str
-    - _CartografiaStorica_: str
-    - _IconografiaStorica_: str
+    - _CartografiaStorica_: rif
+    - _IconografiaStorica_: rif
     - _RestauriInStile_: str
-    - _CostruzioniNeomedievali_: str
     - _Note_: str
 
 - **Vicende** (39757 rows)
     - _IdVicenda_: int
-    - _IdVeteroDb_: str
-    - _IdRifVeteroDb_: str
     - _IdBibliografia_: int
-    - _IdBibliografiaProvv_: int
     - _IdCastello_: int
     - _Datazione_: str
     - _DataNA_: int
@@ -82,21 +72,11 @@ The database is structured in three main tables:
     - _IdBibliografia_: int
     - _Autore_: str
     - _Titolo_: str
-    - _DescrizioneOpera_: str
-    - _Sede_: str
-    - _Annata_: str
     - _LuogoPubblicazione_: str
     - _CuratoreEdizione_: str
     - _CasaEditrice_: str
-    - _ISBN_: int
-    - _Pagine_: str
-    - _EdizioniSuccessive_: str
-    - _VolPiuVol_: str
-
-- ~~Log Bibliografia~~
-- ~~Log Vicende~~
-- ~~Rif vetero DB~~
-- ~~Province~~
+    - _Identificativo_: str
+    - _Data_: date
 
 Additional data (such as _latitude_ and _longitude_) will be added.
 
@@ -126,8 +106,8 @@ Data quality will be ensured through data processing, the definition of a protoc
 
 Data will be stored in:
 * The MySQL database
-* Locally on at least two different drives
-* Sharepoint
+* Locally on at least two different drives, in CSV format
+* Sharepoint, in CSV format
 
 ### How will data security and protection of sensitive data be taken care of during the research?
 
